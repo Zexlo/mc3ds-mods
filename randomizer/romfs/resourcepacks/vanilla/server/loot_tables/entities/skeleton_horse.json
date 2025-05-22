@@ -1,0 +1,18 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:bone"
+                },
+                {
+                "type": "loot_table",
+                "name": "loot_tables/entities/giant.json",
+                "weight": 100                   
+                }                 
+            ]
+        }
+    ]
+}
