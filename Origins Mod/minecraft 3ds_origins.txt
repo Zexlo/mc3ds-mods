@@ -1,0 +1,40 @@
+The famous Origins mod has been reimagined for Minecraft: New Nintendo 3DS edition!
+
+This small scale modpack includes 3 origins to pick from in the downloads section:
+
+MERMAID:
+
+You can only travel on land for 1 minute before needing to submerge in water.
+
+Enderman do not get angry at you unless you attack them.
+
+You have better luck getting treasure from fishing.
+
+ENDERMAN:
+
+You are weak to water, contact with it causes physical pain.
+
+By interacting with an Enderman using diamonds you can trade them for ender pearls.
+
+You deal more damage.
+
+You can throw enderpearls further than usual.
+
+IRON GOLEM:
+
+You are too heavy to swim and sink when in water.
+
+You control like a tank (forwards& backwards using left stick, turn using right)
+
+You are larger than usual at 3 blocks tall.
+
+You deal more damage.
+
+You have additional health.
+
+You take reduced fall damage and knockback.
+
+
+This mod replaces player.json, and depending on what origin you pick, enderman,ender_pearl and fishing.json (in loot_table > gameplay) as well.
+
+- Zexlo

@@ -1,0 +1,72 @@
+{
+  "minecraft:entity": {
+    "format_version": "1.1.0",
+
+    "components": {
+      "minecraft:identifier": {
+        "id": "minecraft:player"
+      },
+      "minecraft:type_family": {
+        "family": [ "player","irongolem" ]
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/empty.json"
+      },
+      "minecraft:collision_box": {
+        "width": 0.72,
+        "height": 2.16
+      },
+      "minecraft:navigation.swim": {
+      },      
+      "minecraft:can_climb": {
+      },
+      "minecraft:movement": {
+        "value": 0.25,
+        "can_float": false        
+      },
+      "minecraft:scale": {
+        "value": 1.2
+      },      
+      "minecraft:health": {
+        "value": 28,
+        "max": 28
+      },      
+      "minecraft:attack": {
+        "damage": 6
+      },
+      "minecraft:player.saturation": {
+        "value": 20 
+      },
+      "minecraft:fall_damage": {
+        "value": 0.8
+      },
+      "minecraft:knockback_resistance": {
+        "value": 1.0
+      },      
+      "minecraft:player.exhaustion": {
+        "value": 0,
+        "max": 4
+      },
+      "minecraft:player.level": {
+        "value": 0,
+        "max": 24791
+      },
+      "minecraft:player.experience": {
+        "value": 0,
+        "max": 1
+      },
+      "minecraft:breathable": {
+        "totalSupply": 35,
+        "suffocateTime": -1,
+        "generatesBubbles": true,
+        "can_float": false          
+      },
+      "minecraft:nameable": {
+        "alwaysShow": true,
+        "allowNameTagRenaming": false
+      }
+
+    }
+
+  }
+}

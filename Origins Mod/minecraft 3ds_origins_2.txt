@@ -1,0 +1,44 @@
+The 2nd edition of my re-imagined origins mod for 3DS!
+
+This small scale modpack includes 3 origins to pick from in the downloads section:
+
+CURSED HUMAN:
+You messed with powers beyond your control in search of power, now you have been cursed.
+
+You are capped to level 20.
+
+You walk slightly faster.
+
+You have a lower default and max saturation.
+
+You take slightly less fall damage
+
+ELF:
+
+An elf who exceeds with bows and foraging.
+
+Red and Brown mushrooms can be eaten for 2 hunger points, at a faster rate than normal food (16 tick)
+
+Your arrows deal more damage, travel further and have a larger hitbox.
+
+You have a smaller stomach, this reduces your default and max saturation.
+
+You are slightly faster.
+
+You have smaller lungs, therefore you run out of beath underwater faster.
+
+VAMPIRE:
+
+You burn in sunlight
+
+Undead mobs are passive towards you.
+
+You can only eat red or meat based foods.
+
+You can breath underwater for longer than normal.
+
+You have additional health.
+
+This mod replaces player.json, and depending on what origin you pick, all zombie/skeleton jsons and items.json as well.
+
+- Zexlo

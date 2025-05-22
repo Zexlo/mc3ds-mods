@@ -1,0 +1,62 @@
+{
+  "minecraft:entity": {
+    "format_version": "1.1.0",
+
+    "components": {
+      "minecraft:identifier": {
+        "id": "minecraft:player"
+      },
+      "minecraft:type_family": {
+        "family": [ "player","undead" ]
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/empty.json"
+      },
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 1.8
+      },
+      "minecraft:can_climb": {
+      },
+      "minecraft:health": {
+        "value": 24,
+        "max": 24
+      },      
+      "minecraft:movement": {
+        "value": 0.1
+      },
+      "minecraft:burns_in_daylight": {
+      },      
+      "minecraft:attack": {
+        "damage": 1
+      },
+      "minecraft:player.saturation": {
+        "value": 20,
+        "max": 20
+      },
+      "minecraft:player.exhaustion": {
+        "value": 0,
+        "max": 4
+      },
+      "minecraft:player.level": {
+        "value": 0,
+        "max": 24791
+      },
+      "minecraft:player.experience": {
+        "value": 0,
+        "max": 1
+      },
+      "minecraft:breathable": {
+        "totalSupply": 35,
+        "suffocateTime": -1,
+        "generatesBubbles": true
+      },
+      "minecraft:nameable": {
+        "alwaysShow": true,
+        "allowNameTagRenaming": false
+      }
+
+    }
+
+  }
+}
