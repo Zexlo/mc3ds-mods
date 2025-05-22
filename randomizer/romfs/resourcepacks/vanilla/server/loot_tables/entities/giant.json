@@ -8,13 +8,23 @@
         "entries": [     
           {
             "type": "loot_table",
-            "name": "loot_tables/gameplay/fishing.json",
+            "name": "loot_tables/gameplay/fishing/junk.json",
             "weight": 110                   
-          },                                                                                            
+          },
+          {
+            "type": "loot_table",
+            "name": "loot_tables/gameplay/fishing/treasure.json",
+            "weight": 80                   
+          },
+          {
+            "type": "loot_table",
+            "name": "loot_tables/gameplay/fishing/fish.json",
+            "weight": 120                   
+          },                                                                                                                 
           {
             "type": "loot_table",
             "name": "loot_tables/entities/blaze.json",
-            "weight": 110                   
+            "weight": 140                   
           },
           {
             "type": "loot_table",
@@ -24,17 +34,17 @@
           {
             "type": "loot_table",
             "name": "loot_tables/entities/chicken.json",
-            "weight": 100                   
+            "weight": 110                   
           },
           {
             "type": "loot_table",
             "name": "loot_tables/entities/cow.json",
-            "weight": 100                   
+            "weight": 130                   
           },
           {
             "type": "loot_table",
             "name": "loot_tables/entities/pig.json",
-            "weight": 100                   
+            "weight": 130                   
           },
           {
             "type": "loot_table",
@@ -49,7 +59,7 @@
           {
             "type": "loot_table",
             "name": "loot_tables/entities/enderman.json",
-            "weight": 130                   
+            "weight": 170                   
           },
           {
             "type": "loot_table",
@@ -59,7 +69,7 @@
           {
             "type": "loot_table",
             "name": "loot_tables/entities/evocation_illager.json",
-            "weight": 100                   
+            "weight": 50                   
           },
           {
             "type": "loot_table",
@@ -84,12 +94,12 @@
           {
             "type": "loot_table",
             "name": "loot_tables/entities/magma_cube.json",
-            "weight": 100                   
+            "weight": 140                   
           }, 
           {
             "type": "loot_table",
             "name": "loot_tables/entities/mooshroom_cow.json",
-            "weight": 100                   
+            "weight": 150                   
           },
           {
             "type": "loot_table",
@@ -109,7 +119,7 @@
           {
             "type": "loot_table",
             "name": "loot_tables/entities/rabbit.json",
-            "weight": 100                   
+            "weight": 120                   
           },
           {
             "type": "loot_table",
@@ -119,7 +129,7 @@
           {
             "type": "loot_table",
             "name": "loot_tables/entities/shulker.json",
-            "weight": 100                   
+            "weight": 130                   
           },          
           {
             "type": "loot_table",
@@ -129,27 +139,27 @@
           {
             "type": "loot_table",
             "name": "loot_tables/entities/slime.json",
-            "weight": 100                   
+            "weight": 120                   
           },
           {
             "type": "loot_table",
             "name": "loot_tables/entities/snowman.json",
-            "weight": 100                   
+            "weight": 120                   
           },
           {
             "type": "loot_table",
             "name": "loot_tables/entities/spider.json",
-            "weight": 100                   
+            "weight": 120                   
           },  
           {
             "type": "loot_table",
             "name": "loot_tables/entities/squid.json",
-            "weight": 100                   
+            "weight": 120                   
           },
           {
             "type": "loot_table",
             "name": "loot_tables/entities/vindication_illager.json",
-            "weight": 100                   
+            "weight": 30                   
           },  
           {
             "type": "loot_table",
@@ -159,21 +169,16 @@
           {
             "type": "loot_table",
             "name": "loot_tables/entities/wither_skeleton.json",
-            "weight": 100                   
+            "weight": 140                   
           },  
           {
             "type": "loot_table",
             "name": "loot_tables/entities/wither_boss.json",
-            "weight": 100                   
+            "weight": 120                   
           },
           {
             "type": "loot_table",
             "name": "loot_tables/entities/zombie_pigman.json",
-            "weight": 100                   
-          },  
-          {
-            "type": "loot_table",
-            "name": "loot_tables/entities/slime.json",
             "weight": 100                   
           }                     
         ]
@@ -187,7 +192,7 @@
               {
                   "type": "item",
                   "name": "minecraft:stone",
-                  "weight": 100,
+                  "weight": 140,
                   "functions": [
                     {
                       "function": "set_count",
@@ -200,7 +205,7 @@
                     "function": "random_aux_value",
                     "values": {
                       "min": 0,
-                      "max": 7
+                      "max": 6
                       }
                     }                    
                   ]                  
@@ -208,7 +213,7 @@
               {
                   "type": "item",
                   "name": "minecraft:dirt",
-                  "weight": 100,
+                  "weight": 130,
                   "functions": [
                     {
                       "function": "set_count",
@@ -222,7 +227,7 @@
               {
                   "type": "item",
                   "name": "minecraft:endstone:0",
-                  "weight": 100,
+                  "weight": 110,
                   "functions": [
                     {
                       "function": "set_count",
@@ -236,7 +241,7 @@
               {
                   "type": "item",
                   "name": "minecraft:clay",
-                  "weight": 100,
+                  "weight": 120,
                   "functions": [
                     {
                       "function": "set_count",
@@ -250,7 +255,7 @@
               {
                   "type": "item",
                   "name": "minecraft:stonebrick",
-                  "weight": 100,
+                  "weight": 140,
                   "functions": [
                     {
                       "function": "set_count",
@@ -271,7 +276,7 @@
               {
                   "type": "item",
                   "name": "minecraft:slime",
-                  "weight": 100,
+                  "weight": 110,
                   "functions": [
                     {
                       "function": "set_count",
@@ -284,8 +289,127 @@
               },  
               {
                   "type": "item",
-                  "name": "minecraft:grass_block",
+                  "name": "minecraft:glass",
+                  "weight": 110,
+                  "functions": [
+                    {
+                      "function": "set_count",
+                      "count": {
+                        "min": 0,
+                        "max": 3
+                      }
+                    }
+                  ]                  
+              }, 
+              {
+                  "type": "item",
+                  "name": "minecraft:stained_glass",
+                  "weight": 140,
+                  "functions": [
+                    {
+                      "function": "set_count",
+                      "count": {
+                        "min": 0,
+                        "max": 3
+                      }
+                    },
+                  {
+                  "function": "random_aux_value",
+                  "values": {
+                    "min": 0,
+                    "max": 15
+                    }
+                  }                    
+                  ]                  
+              },
+              {
+                  "type": "item",
+                  "name": "minecraft:concrete_powder",
+                  "weight": 140,
+                  "functions": [
+                    {
+                      "function": "set_count",
+                      "count": {
+                        "min": 0,
+                        "max": 3
+                      }
+                    },
+                  {
+                  "function": "random_aux_value",
+                  "values": {
+                    "min": 0,
+                    "max": 15
+                    }
+                  }                    
+                  ]                  
+              }, 
+              {
+                  "type": "item",
+                  "name": "minecraft:concrete",
+                  "weight": 140,
+                  "functions": [
+                    {
+                      "function": "set_count",
+                      "count": {
+                        "min": 0,
+                        "max": 3
+                      }
+                    },
+                  {
+                  "function": "random_aux_value",
+                  "values": {
+                    "min": 0,
+                    "max": 15
+                    }
+                  }                    
+                  ]                  
+              }, 
+              {
+                  "type": "item",
+                  "name": "minecraft:bed",
                   "weight": 100,
+                  "functions": [
+                    {
+                      "function": "set_count",
+                      "count": {
+                        "min": 0,
+                        "max": 1
+                      }
+                    },
+                  {
+                  "function": "set_data",
+                  "data": {
+                    "min": 0,
+                    "max": 15
+                    }
+                  }                    
+                  ]                  
+              }, 
+              {
+                  "type": "item",
+                  "name": "minecraft:wool",
+                  "weight": 100,
+                  "functions": [
+                    {
+                      "function": "set_count",
+                      "count": {
+                        "min": 0,
+                        "max": 1
+                      }
+                    },
+                  {
+                  "function": "random_aux_value",
+                  "values": {
+                    "min": 0,
+                    "max": 15
+                    }
+                  }                    
+                  ]                  
+              },                                                                                
+              {
+                  "type": "item",
+                  "name": "minecraft:grass_block",
+                  "weight": 150,
                   "functions": [
                     {
                       "function": "set_count",
@@ -299,7 +423,7 @@
               {
                   "type": "item",
                   "name": "minecraft:sand:0",
-                  "weight": 100,
+                  "weight": 120,
                   "functions": [
                     {
                       "function": "set_count",
@@ -312,8 +436,29 @@
               },
               {
                   "type": "item",
+                  "name": "minecraft:carpet",
+                  "weight": 140,
+                  "functions": [
+                    {
+                      "function": "set_count",
+                      "count": {
+                        "min": 0,
+                        "max": 1
+                      }
+                    },
+                  {
+                  "function": "random_aux_value",
+                  "values": {
+                    "min": 0,
+                    "max": 15
+                    }
+                  }                    
+                  ]                  
+              },               
+              {
+                  "type": "item",
                   "name": "minecraft:sand:1",
-                  "weight": 100,
+                  "weight": 120,
                   "functions": [
                     {
                       "function": "set_count",
@@ -327,7 +472,7 @@
               {
                 "type": "item",  
                 "name": "minecraft:dye",
-                "weight": 40,               
+                "weight": 60,               
                 "functions": [
                 {
                 "function": "random_aux_value",
@@ -348,7 +493,7 @@
               {
                 "type": "item",  
                 "name": "minecraft:sapling",
-                "weight": 40,               
+                "weight": 60,               
                 "functions": [
                 {
                 "function": "random_aux_value",
@@ -453,7 +598,7 @@
               {
                   "type": "item",
                   "name": "minecraft:netherrack",
-                  "weight": 100,
+                  "weight": 120,
                   "functions": [
                     {
                       "function": "set_count",
@@ -467,7 +612,7 @@
               {
                   "type": "item",
                   "name": "minecraft:cactus",
-                  "weight": 100,
+                  "weight": 120,
                   "functions": [
                     {
                       "function": "set_count",
@@ -481,7 +626,7 @@
               {
                   "type": "item",
                   "name": "minecraft:gravel",
-                  "weight": 100,
+                  "weight": 110,
                   "functions": [
                     {
                       "function": "set_count",
@@ -495,7 +640,7 @@
               {
                   "type": "item",
                   "name": "minecraft:planks",
-                  "weight": 100,
+                  "weight": 150,
                 "functions": [
                 {
                 "function": "random_aux_value",
@@ -552,12 +697,12 @@
               {
                   "type": "item",
                   "name": "minecraft:yellow_flower",
-                  "weight": 100
+                  "weight": 120
               },  
               {
                   "type": "item",
                   "name": "minecraft:red_flower",
-                  "weight": 100,
+                  "weight": 130,
                 "functions": [
                 {
                 "function": "random_aux_value",
@@ -578,7 +723,7 @@
               {
                   "type": "item",
                   "name": "minecraft:web",
-                  "weight": 100,
+                  "weight": 120,
                   "functions": [
                     {
                       "function": "set_count",
@@ -731,8 +876,8 @@
               }, 
               {
                   "type": "item",
-                  "name": "minecraft:oak_slab",
-                  "weight": 100,
+                  "name": "minecraft:wooden_slab",
+                  "weight": 140,
                   "functions": [
                     {
                       "function": "set_count",
@@ -740,83 +885,20 @@
                         "min": 0,
                         "max": 3
                       }
-                    }
-                  ]                  
-              }, 
-              {
-                  "type": "item",
-                  "name": "minecraft:birch_slab",
-                  "weight": 100,
-                  "functions": [
+                    },
                     {
-                      "function": "set_count",
-                      "count": {
-                        "min": 0,
-                        "max": 3
+                    "function": "random_aux_value",
+                    "values": {
+                      "min": 0,
+                      "max": 5
                       }
-                    }
-                  ]                  
-              }, 
-              {
-                  "type": "item",
-                  "name": "minecraft:jungle_slab",
-                  "weight": 100,
-                  "functions": [
-                    {
-                      "function": "set_count",
-                      "count": {
-                        "min": 0,
-                        "max": 3
-                      }
-                    }
-                  ]                  
-              }, 
-              {
-                  "type": "item",
-                  "name": "minecraft:acacia_slab",
-                  "weight": 100,
-                  "functions": [
-                    {
-                      "function": "set_count",
-                      "count": {
-                        "min": 0,
-                        "max": 3
-                      }
-                    }
-                  ]                  
-              },                                  
-              {
-                  "type": "item",
-                  "name": "minecraft:spruce_slab",
-                  "weight": 100,
-                  "functions": [
-                    {
-                      "function": "set_count",
-                      "count": {
-                        "min": 0,
-                        "max": 3
-                      }
-                    }
-                  ]                  
-              }, 
-              {
-                  "type": "item",
-                  "name": "minecraft:dark_oak_slab",
-                  "weight": 100,
-                  "functions": [
-                    {
-                      "function": "set_count",
-                      "count": {
-                        "min": 0,
-                        "max": 3
-                      }
-                    }
+                    }                    
                   ]                  
               },
               {
                   "type": "item",
-                  "name": "minecraft:oak_fence",
-                  "weight": 100,
+                  "name": "minecraft:fence",
+                  "weight": 140,
                   "functions": [
                     {
                       "function": "set_count",
@@ -824,79 +906,16 @@
                         "min": 0,
                         "max": 3
                       }
-                    }
-                  ]                  
-              }, 
-              {
-                  "type": "item",
-                  "name": "minecraft:birch_fence",
-                  "weight": 100,
-                  "functions": [
+                    },
                     {
-                      "function": "set_count",
-                      "count": {
-                        "min": 0,
-                        "max": 3
+                    "function": "random_aux_value",
+                    "values": {
+                      "min": 0,
+                      "max": 5
                       }
-                    }
+                    }                    
                   ]                  
-              }, 
-              {
-                  "type": "item",
-                  "name": "minecraft:jungle_fence",
-                  "weight": 100,
-                  "functions": [
-                    {
-                      "function": "set_count",
-                      "count": {
-                        "min": 0,
-                        "max": 3
-                      }
-                    }
-                  ]                  
-              }, 
-              {
-                  "type": "item",
-                  "name": "minecraft:acacia_fence",
-                  "weight": 100,
-                  "functions": [
-                    {
-                      "function": "set_count",
-                      "count": {
-                        "min": 0,
-                        "max": 3
-                      }
-                    }
-                  ]                  
-              },                                  
-              {
-                  "type": "item",
-                  "name": "minecraft:spruce_fence",
-                  "weight": 100,
-                  "functions": [
-                    {
-                      "function": "set_count",
-                      "count": {
-                        "min": 0,
-                        "max": 3
-                      }
-                    }
-                  ]                  
-              }, 
-              {
-                  "type": "item",
-                  "name": "minecraft:dark_oak_fence",
-                  "weight": 100,
-                  "functions": [
-                    {
-                      "function": "set_count",
-                      "count": {
-                        "min": 0,
-                        "max": 3
-                      }
-                    }
-                  ]                  
-              },
+              },                                                                               
               {
                   "type": "item",
                   "name": "minecraft:iron_bars",
@@ -952,7 +971,28 @@
                       }
                     }
                   ]                  
-              }, 
+              },
+              {
+                  "type": "item",
+                  "name": "minecraft:spawn_egg",
+                  "weight": 70,
+                  "functions": [
+                    {
+                      "function": "set_count",
+                      "count": {
+                        "min": 0,
+                        "max": 2
+                      }
+                    },
+                  {
+                  "function": "random_aux_value",
+                  "values": {
+                    "min": 10,
+                    "max": 58
+                    }
+                  }                    
+                  ]                  
+              },                
               {
                   "type": "item",
                   "name": "minecraft:end_bricks",
@@ -1022,24 +1062,30 @@
               },
               {
                   "type": "item",
-                  "name": "minecraft:bucket:0",
+                  "name": "minecraft:flint_and_steel",
                   "weight": 40
               },
               {
                   "type": "item",
-                  "name": "minecraft:bucket:1",
-                  "weight": 40
-              }, 
-              {
-                  "type": "item",
-                  "name": "minecraft:bucket:2",
-                  "weight": 40
-              },
-              {
-                  "type": "item",
-                  "name": "minecraft:bucket:3",
-                  "weight": 40
-              },
+                  "name": "minecraft:bucket",
+                  "weight": 140,
+                  "functions": [
+                    {
+                      "function": "set_count",
+                      "count": {
+                        "min": 0,
+                        "max": 1
+                      }
+                    },
+                  {
+                  "function": "random_aux_value",
+                  "values": {
+                    "min": 0,
+                    "max": 4
+                    }
+                  }                    
+                  ]                  
+              },                             
               {
                   "type": "item",
                   "name": "minecraft:double_plant:0",
@@ -1072,7 +1118,7 @@
               {
                   "type": "item",
                   "name": "minecraft:tnt:0",
-                  "weight": 100,
+                  "weight": 110,
                   "functions": [
                     {
                       "function": "set_count",
@@ -1082,7 +1128,47 @@
                       }
                     }
                   ]                  
-              }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+              },
+              {
+                  "type": "item",
+                  "name": "minecraft:fishing_rod",
+                  "weight": 40
+              },              
+              {
+                  "type": "item",
+                  "name": "minecraft:anvil:0",
+                  "weight": 110,
+                  "functions": [
+                    {
+                      "function": "set_count",
+                      "count": {
+                        "min": 0,
+                        "max": 3
+                      }
+                    }
+                  ]                  
+              },
+              {
+                  "type": "item",
+                  "name": "minecraft:arrow",
+                  "weight": 60,
+                  "functions": [
+                    {
+                      "function": "set_data",
+                      "data": {
+                        "min": 0,
+                        "max": 46
+                      }
+                    },
+                    {
+                      "function": "set_count",
+                      "count": {
+                        "min": 0,
+                        "max": 8
+                      }
+                    }                    
+                  ]                  
+              }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
           ]
       },
       {
